@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    /* To hide the scrollbar. */
+    overflow: hidden;
+}
+img.mission-impossible{
+   width: 1453px;
+   height: 880px;
+   -webkit-filter: blur(2px);
+   filter: blur(2px);
+}
+h1.Register{
+    text-align: center;
+    position: relative;
+    right: 25px;
+}
+/*Positioning and sizing for the whole form*/
+form.my-form{
+height: 400px;
+position: absolute;
+top: 153px;
+left: 190px;
+background-color: #ffffff80;
+}
+/*Form Input fields*/
+input#Name{
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+    border: 3px solid #bcac1d;
+    position: relative;
+    left: 355px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+}
+input#email-id{
+  width: 300px;
+    text-align: center;
+    padding: 5px;
+    border: 3px solid #bcac1d;
+    position: relative;
+    top: 66px;
+    left: 36px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+}
+input#password{
+  width: 300px;
+  text-align: center;
+  padding: 5px;
+  border: 3px solid #bcac1d;
+  position: relative;  
+  top: 138px;
+  right: 282px;
+   -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+}
+/* The submit button properties are copied from the CSS button generator https://css3buttongenerator.com */
+input.submit-button {
+  background: #34d9ce;
+  background-image: -webkit-linear-gradient(top, #34d9ce, #2bb84e);
+  background-image: -moz-linear-gradient(top, #34d9ce, #2bb84e);
+  background-image: -ms-linear-gradient(top, #34d9ce, #2bb84e);
+  background-image: -o-linear-gradient(top, #34d9ce, #2bb84e);
+  background-image: linear-gradient(to bottom, #34d9ce, #2bb84e);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 16px 24px 16px;
+  border: solid #1f628d 4px;
+  text-decoration:wavy;
+  position: relative;
+  top: 215px;
+  right: 500px;
+}
+
+input.submit-button:hover {
+  background: #ffc400;
+  background-image: -webkit-linear-gradient(top, #ffc400, #34d958);
+  background-image: -moz-linear-gradient(top, #ffc400, #34d958);
+  background-image: -ms-linear-gradient(top, #ffc400, #34d958);
+  background-image: -o-linear-gradient(top, #ffc400, #34d958);
+  background-image: linear-gradient(to bottom, #ffc400, #34d958);
+  text-decoration: none;
+}
